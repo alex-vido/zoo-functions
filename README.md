@@ -176,7 +176,22 @@ Em caso de dúvidas, confira o material na plataforma sobre [ESLint e Stylelint]
 ⚠️ **PULL REQUESTS COM ISSUES NO LINTER NÃO SERÃO AVALIADAS. ATENTE-SE PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO!** ⚠️
 	
 </details>
-	
+
+<details>
+  <summary><strong>:busts_in_silhouette: Trello como ferramenta Kanban</strong></summary><br />
+
+  Uma forma de você organizar as atividades e dividir as tarefas é através de um modelo de Kanban. A Trybe disponibilizou no [Trello](https://trello.com/) um [board pré-configurado](https://trello.com/b/YpFJ5AY8/projeto-zoo-functions) para que você possa duplicá-lo e usar da melhor forma.
+
+  Siga os passos abaixo para duplicar o board:
+
+  - Acesse o [board](https://trello.com/b/YpFJ5AY8/projeto-zoo-functions);
+  - Abra o menu no canto superior direito;
+  - Selecione "Copiar Quadro";
+  - Defina um título para o board;
+  - Clique em `Criar`;
+  - Personalize seu novo Kanban.
+</details>
+
 <details>
 <summary><strong>🛠 Testes</strong></summary><br />
 
