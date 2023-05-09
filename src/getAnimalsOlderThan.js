@@ -7,5 +7,5 @@ const getAnimalsOlderThan = (animal, age) => {
   if (specie) {
     return isOlder(specie, age);
   }
-}
+};
 module.exports = getAnimalsOlderThan;
