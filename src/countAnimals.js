@@ -1,9 +1,14 @@
 const data = require('../data/zoo_data');
 
-const countAnimals = (animals, ...sex) =>
-  data.species.filter((animal) => animal.name === animals)
-    .reduce((acc, curr) => acc + curr, 0);
+const countAnimalsSex = (ani, sex) =>
+  ani.residents.reduce((acc, curr) => (curr.sex === sex ? acc + 1 : acc), 0);
+
+const countAnimals = ({ name, sex }) => {
+  const ani = data.species.find((a) => a.name === name);
+  if (sex) {
+    return countAnimalsSex(ani, sex);
+  }
+  return ani.residents.reduce((acc, curr) => (curr ? acc + 1 : acc), 0);
+};
 
 module.exports = countAnimals;
-
-console.log(countAnimals('pinguins'));
