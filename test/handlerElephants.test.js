@@ -7,7 +7,7 @@ describe('Testes da função HandlerElephants', () => {
     expect(handlerElephants(2)).toBe('Parâmetro inválido, é necessário uma string');
     expect(handlerElephants('location', 'elephants')).toBe('NW');
     expect(handlerElephants('asd', 'elephants')).toBeNull();
-    expect(handlerElephants('names', 'elephants')).toEqual([ 'Ilana', 'Orval', 'Bea', 'Jefferson' ]);
+    expect(handlerElephants('names', 'elephants')).toEqual(['Ilana', 'Orval', 'Bea', 'Jefferson']);
     expect(handlerElephants('averageAge', 'elephants')).toBe(10.5);
     expect(handlerElephants('count', 'elephants')).toBe(4);
   });
