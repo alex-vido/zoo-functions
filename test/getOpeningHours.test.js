@@ -19,5 +19,6 @@ describe('Testes da função getOpeningHours', () => {
     expect(() => getOpeningHours('monday', '12:63-AM')).toThrow('The minutes must be between 0 and 59');
     expect(() => getOpeningHours('friday', '1a:10-PM')).toThrow('The hour should represent a number');
     expect(() => getOpeningHours('fridsay', '12:10-PM')).toThrow('The day must be valid. Example: Monday');
+    expect(getOpeningHours('monday', '8:10-PM')).toBe('The zoo is closed');
   });
 });
